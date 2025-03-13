@@ -1,0 +1,182 @@
+[1.132s] Invoking command in '/home/abdy/ros2_ws/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdy/ros2_ws/install/signal_processing:/home/abdy/ros2_ws/install/my_py_pkg:/home/abdy/ros2_ws/install/challenge_1:/home/abdy/ros2_ws/install/challenge1:/home/abdy/ros2_ws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /home/abdy/ros2_ws/build/my_interfaces -- -j6 -l6
+[1.552s] [  2%] Built target my_interfaces__cpp
+[1.554s] [ 12%] Built target my_interfaces__rosidl_generator_c
+[1.554s] [ 12%] Built target ament_cmake_python_copy_my_interfaces
+[1.555s] [ 23%] Built target my_interfaces__rosidl_typesupport_cpp
+[1.555s] [ 33%] Built target my_interfaces__rosidl_typesupport_introspection_c
+[1.555s] [ 43%] Built target my_interfaces__rosidl_typesupport_fastrtps_c
+[1.557s] [ 53%] Built target my_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.557s] [ 64%] Built target my_interfaces__rosidl_typesupport_introspection_cpp
+[1.558s] [ 74%] Built target my_interfaces__rosidl_typesupport_c
+[1.558s] [ 74%] Built target my_interfaces
+[1.558s] [ 76%] Built target my_interfaces__py
+[1.618s] [ 84%] Built target my_interfaces__rosidl_generator_py
+[1.688s] [ 89%] Built target my_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.690s] [ 94%] Built target my_interfaces__rosidl_typesupport_c__pyext
+[1.692s] [100%] Built target my_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.779s] running egg_info
+[1.780s] writing my_interfaces.egg-info/PKG-INFO
+[1.781s] writing dependency_links to my_interfaces.egg-info/dependency_links.txt
+[1.781s] writing top-level names to my_interfaces.egg-info/top_level.txt
+[1.784s] reading manifest file 'my_interfaces.egg-info/SOURCES.txt'
+[1.785s] writing manifest file 'my_interfaces.egg-info/SOURCES.txt'
+[1.827s] [100%] Built target ament_cmake_python_build_my_interfaces_egg
+[1.974s] Invoked command in '/home/abdy/ros2_ws/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdy/ros2_ws/install/signal_processing:/home/abdy/ros2_ws/install/my_py_pkg:/home/abdy/ros2_ws/install/challenge_1:/home/abdy/ros2_ws/install/challenge1:/home/abdy/ros2_ws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --build /home/abdy/ros2_ws/build/my_interfaces -- -j6 -l6
+[2.025s] Invoking command in '/home/abdy/ros2_ws/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdy/ros2_ws/install/signal_processing:/home/abdy/ros2_ws/install/my_py_pkg:/home/abdy/ros2_ws/install/challenge_1:/home/abdy/ros2_ws/install/challenge1:/home/abdy/ros2_ws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --install /home/abdy/ros2_ws/build/my_interfaces
+[2.070s] -- Install configuration: ""
+[2.071s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_interfaces
+[2.071s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[2.071s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[2.071s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[2.071s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__functions.h
+[2.072s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__struct.h
+[2.072s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__type_support.h
+[2.072s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__functions.c
+[2.072s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.072s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/hardware_status.h
+[2.080s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[2.082s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/compute_rectangle_area.h
+[2.082s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[2.082s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__functions.c
+[2.082s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__type_support.h
+[2.082s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__struct.h
+[2.082s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__functions.h
+[2.082s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/environment/library_path.sh
+[2.083s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/environment/library_path.dsv
+[2.083s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so
+[2.085s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[2.085s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[2.086s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[2.086s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h
+[2.086s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.087s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[2.087s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[2.087s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_c.h
+[2.089s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.095s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[2.095s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[2.095s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.095s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[2.095s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+[2.095s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__type_support.c
+[2.097s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[2.097s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[2.097s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h
+[2.098s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__type_support.c
+[2.099s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so
+[2.102s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so
+[2.104s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[2.106s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[2.106s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/hardware_status.hpp
+[2.106s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[2.106s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__struct.hpp
+[2.106s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__builder.hpp
+[2.106s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__traits.hpp
+[2.107s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__type_support.hpp
+[2.107s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.111s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[2.111s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/compute_rectangle_area.hpp
+[2.111s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[2.113s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__builder.hpp
+[2.113s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__traits.hpp
+[2.113s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__type_support.hpp
+[2.114s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__struct.hpp
+[2.114s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[2.114s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[2.118s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[2.118s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/dds_fastrtps
+[2.118s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.118s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.119s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[2.119s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[2.119s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/dds_fastrtps
+[2.122s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_cpp.hpp
+[2.122s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.125s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[2.125s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[2.125s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[2.125s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__type_support.cpp
+[2.126s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp
+[2.126s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[2.126s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[2.126s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp
+[2.126s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__type_support.cpp
+[2.133s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.133s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so
+[2.140s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.sh
+[2.140s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.dsv
+[2.140s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info
+[2.140s] -- Installing: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.141s] -- Installing: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.141s] -- Installing: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.143s] -- Installing: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.144s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces
+[2.146s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/__init__.py
+[2.146s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.146s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.146s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg
+[2.147s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_hardware_status.py
+[2.147s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_hardware_status_s.c
+[2.147s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/__init__.py
+[2.152s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/libmy_interfaces__rosidl_generator_py.so
+[2.153s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.153s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.153s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c
+[2.154s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.154s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv
+[2.154s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/__init__.py
+[2.156s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_compute_rectangle_area.py
+[2.156s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_compute_rectangle_area_s.c
+[2.273s] Listing '/home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces'...
+[2.275s] Listing '/home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg'...
+[2.275s] Listing '/home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv'...
+[2.283s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.290s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.294s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.302s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so
+[2.305s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/msg/HardwareStatus.idl
+[2.306s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/srv/ComputeRectangleArea.idl
+[2.307s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/msg/HardwareStatus.msg
+[2.307s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/srv/ComputeRectangleArea.srv
+[2.307s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/srv/ComputeRectangleArea_Request.msg
+[2.307s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/srv/ComputeRectangleArea_Response.msg
+[2.307s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/ament_index/resource_index/package_run_dependencies/my_interfaces
+[2.309s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/ament_index/resource_index/parent_prefix_path/my_interfaces
+[2.310s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.sh
+[2.310s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.dsv
+[2.316s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/environment/path.sh
+[2.316s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/environment/path.dsv
+[2.317s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.bash
+[2.317s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.sh
+[2.317s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.zsh
+[2.317s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.dsv
+[2.317s] -- Installing: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/package.dsv
+[2.317s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/ament_index/resource_index/packages/my_interfaces
+[2.321s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport.cmake
+[2.321s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.323s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.324s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.324s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.324s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.324s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport.cmake
+[2.325s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.325s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cppExport.cmake
+[2.326s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.332s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.332s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.332s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.333s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport.cmake
+[2.333s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.333s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport.cmake
+[2.333s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.333s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.333s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.334s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.334s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.336s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.336s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.337s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.337s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig.cmake
+[2.337s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig-version.cmake
+[2.337s] -- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/package.xml
+[2.349s] Invoked command in '/home/abdy/ros2_ws/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdy/ros2_ws/install/signal_processing:/home/abdy/ros2_ws/install/my_py_pkg:/home/abdy/ros2_ws/install/challenge_1:/home/abdy/ros2_ws/install/challenge1:/home/abdy/ros2_ws/install/basic_comms:/opt/ros/humble /usr/bin/cmake --install /home/abdy/ros2_ws/build/my_interfaces

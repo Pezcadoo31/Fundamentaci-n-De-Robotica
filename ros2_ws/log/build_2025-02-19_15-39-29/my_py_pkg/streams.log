@@ -1,0 +1,33 @@
+[4.215s] Invoking command in '/home/abdy/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/abdy/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/abdy/ros2_ws/build/my_py_pkg/build install --record /home/abdy/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[5.161s] running egg_info
+[5.166s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[5.170s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[5.170s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[5.171s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[5.171s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[5.180s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[5.185s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[5.189s] running build
+[5.189s] running build_py
+[5.190s] copying my_py_pkg/ComputeRectangleArea_server.py -> /home/abdy/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[5.193s] running install
+[5.195s] running install_lib
+[5.201s] copying /home/abdy/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/ComputeRectangleArea_server.py -> /home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[5.207s] byte-compiling /home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/ComputeRectangleArea_server.py to ComputeRectangleArea_server.cpython-310.pyc
+[5.220s] running install_data
+[5.226s] running install_egg_info
+[5.236s] removing '/home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[5.241s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[5.248s] running install_scripts
+[5.326s] Installing add_2ints_client script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.331s] Installing add_2ints_server script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.331s] Installing cra_client script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.331s] Installing cra_server script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.332s] Installing hola_incrementar script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.332s] Installing hola_mundo script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.332s] Installing hw_status_publisher script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.341s] Installing hw_status_subscriber script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.341s] Installing my_listener script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.341s] Installing my_talker script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[5.341s] writing list of installed files to '/home/abdy/ros2_ws/build/my_py_pkg/install.log'
+[5.395s] Invoked command in '/home/abdy/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/abdy/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/abdy/ros2_ws/build/my_py_pkg/build install --record /home/abdy/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

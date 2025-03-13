@@ -1,0 +1,30 @@
+[2.545s] Invoking command in '/home/abdy/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/abdy/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/abdy/ros2_ws/build/my_py_pkg/build install --record /home/abdy/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[2.941s] running egg_info
+[2.941s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.942s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.943s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.943s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.943s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.946s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.948s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.948s] running build
+[2.949s] running build_py
+[2.952s] running install
+[2.952s] running install_lib
+[2.953s] running install_data
+[2.954s] running install_egg_info
+[2.956s] removing '/home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.957s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[2.959s] running install_scripts
+[2.997s] Installing add_2ints_client script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.997s] Installing add_2ints_server script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.997s] Installing cra_client script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.998s] Installing cra_server script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.998s] Installing hola_incrementar script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.998s] Installing hola_mundo script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.998s] Installing hw_status_publisher script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.999s] Installing hw_status_subscriber script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.999s] Installing my_listener script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.999s] Installing my_talker script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.000s] writing list of installed files to '/home/abdy/ros2_ws/build/my_py_pkg/install.log'
+[3.028s] Invoked command in '/home/abdy/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/abdy/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/abdy/ros2_ws/build/my_py_pkg/build install --record /home/abdy/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

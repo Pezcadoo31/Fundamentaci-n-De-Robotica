@@ -1,0 +1,4 @@
+[console_scripts]
+process_mini = mini_challenge.process_mini:main
+signal_generator_mini = mini_challenge.signal_generator_mini:main
+

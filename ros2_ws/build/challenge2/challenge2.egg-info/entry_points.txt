@@ -1,0 +1,5 @@
+[console_scripts]
+ctrl = challenge2.ctrl:main
+motor_sys = challenge2.motor_sys:main
+sp_gen = challenge2.sp_gen:main
+

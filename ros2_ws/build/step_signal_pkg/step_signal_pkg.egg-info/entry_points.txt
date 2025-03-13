@@ -1,0 +1,3 @@
+[console_scripts]
+step_signal_node = step_signal_pkg.step_signal_node:main
+

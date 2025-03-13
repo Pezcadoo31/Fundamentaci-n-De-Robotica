@@ -1,0 +1,22 @@
+[1.401s] Invoking command in '/home/abdy/ros2_ws/src/challenge1': PYTHONPATH=/home/abdy/ros2_ws/build/challenge1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdy/ros2_ws/install/challenge1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/challenge1 build --build-base /home/abdy/ros2_ws/build/challenge1/build install --record /home/abdy/ros2_ws/build/challenge1/install.log --single-version-externally-managed install_data
+[1.689s] running egg_info
+[1.689s] writing ../../build/challenge1/challenge1.egg-info/PKG-INFO
+[1.689s] writing dependency_links to ../../build/challenge1/challenge1.egg-info/dependency_links.txt
+[1.689s] writing entry points to ../../build/challenge1/challenge1.egg-info/entry_points.txt
+[1.690s] writing requirements to ../../build/challenge1/challenge1.egg-info/requires.txt
+[1.690s] writing top-level names to ../../build/challenge1/challenge1.egg-info/top_level.txt
+[1.692s] reading manifest file '../../build/challenge1/challenge1.egg-info/SOURCES.txt'
+[1.698s] writing manifest file '../../build/challenge1/challenge1.egg-info/SOURCES.txt'
+[1.698s] running build
+[1.698s] running build_py
+[1.698s] running install
+[1.698s] running install_lib
+[1.698s] running install_data
+[1.698s] running install_egg_info
+[1.698s] removing '/home/abdy/ros2_ws/install/challenge1/lib/python3.10/site-packages/challenge1-0.0.0-py3.10.egg-info' (and everything under it)
+[1.701s] Copying ../../build/challenge1/challenge1.egg-info to /home/abdy/ros2_ws/install/challenge1/lib/python3.10/site-packages/challenge1-0.0.0-py3.10.egg-info
+[1.713s] running install_scripts
+[1.756s] Installing process script to /home/abdy/ros2_ws/install/challenge1/lib/challenge1
+[1.756s] Installing signal_generator script to /home/abdy/ros2_ws/install/challenge1/lib/challenge1
+[1.756s] writing list of installed files to '/home/abdy/ros2_ws/build/challenge1/install.log'
+[1.826s] Invoked command in '/home/abdy/ros2_ws/src/challenge1' returned '0': PYTHONPATH=/home/abdy/ros2_ws/build/challenge1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdy/ros2_ws/install/challenge1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/challenge1 build --build-base /home/abdy/ros2_ws/build/challenge1/build install --record /home/abdy/ros2_ws/build/challenge1/install.log --single-version-externally-managed install_data

@@ -1,0 +1,28 @@
+[0.841s] Invoking command in '/home/abdy/ros2_ws/src/signal_processing': PYTHONPATH=/home/abdy/ros2_ws/build/signal_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdy/ros2_ws/install/signal_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/signal_processing build --build-base /home/abdy/ros2_ws/build/signal_processing/build install --record /home/abdy/ros2_ws/build/signal_processing/install.log --single-version-externally-managed install_data
+[1.028s] running egg_info
+[1.029s] writing ../../build/signal_processing/signal_processing.egg-info/PKG-INFO
+[1.029s] writing dependency_links to ../../build/signal_processing/signal_processing.egg-info/dependency_links.txt
+[1.029s] writing entry points to ../../build/signal_processing/signal_processing.egg-info/entry_points.txt
+[1.029s] writing requirements to ../../build/signal_processing/signal_processing.egg-info/requires.txt
+[1.029s] writing top-level names to ../../build/signal_processing/signal_processing.egg-info/top_level.txt
+[1.031s] reading manifest file '../../build/signal_processing/signal_processing.egg-info/SOURCES.txt'
+[1.032s] writing manifest file '../../build/signal_processing/signal_processing.egg-info/SOURCES.txt'
+[1.032s] running build
+[1.032s] running build_py
+[1.032s] copying signal_processing/signal_generator_param.py -> /home/abdy/ros2_ws/build/signal_processing/build/lib/signal_processing
+[1.032s] running install
+[1.032s] running install_lib
+[1.033s] copying /home/abdy/ros2_ws/build/signal_processing/build/lib/signal_processing/signal_generator_param.py -> /home/abdy/ros2_ws/install/signal_processing/lib/python3.10/site-packages/signal_processing
+[1.034s] byte-compiling /home/abdy/ros2_ws/install/signal_processing/lib/python3.10/site-packages/signal_processing/signal_generator_param.py to signal_generator_param.cpython-310.pyc
+[1.035s] running install_data
+[1.035s] running install_egg_info
+[1.037s] removing '/home/abdy/ros2_ws/install/signal_processing/lib/python3.10/site-packages/signal_processing-0.0.0-py3.10.egg-info' (and everything under it)
+[1.037s] Copying ../../build/signal_processing/signal_processing.egg-info to /home/abdy/ros2_ws/install/signal_processing/lib/python3.10/site-packages/signal_processing-0.0.0-py3.10.egg-info
+[1.038s] running install_scripts
+[1.057s] Installing a script to /home/abdy/ros2_ws/install/signal_processing/lib/signal_processing
+[1.058s] Installing process script to /home/abdy/ros2_ws/install/signal_processing/lib/signal_processing
+[1.058s] Installing random_generator script to /home/abdy/ros2_ws/install/signal_processing/lib/signal_processing
+[1.058s] Installing signal_generator script to /home/abdy/ros2_ws/install/signal_processing/lib/signal_processing
+[1.058s] Installing signal_generator_param script to /home/abdy/ros2_ws/install/signal_processing/lib/signal_processing
+[1.059s] writing list of installed files to '/home/abdy/ros2_ws/build/signal_processing/install.log'
+[1.082s] Invoked command in '/home/abdy/ros2_ws/src/signal_processing' returned '0': PYTHONPATH=/home/abdy/ros2_ws/build/signal_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdy/ros2_ws/install/signal_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/signal_processing build --build-base /home/abdy/ros2_ws/build/signal_processing/build install --record /home/abdy/ros2_ws/build/signal_processing/install.log --single-version-externally-managed install_data

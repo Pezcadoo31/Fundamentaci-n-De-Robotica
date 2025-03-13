@@ -1,0 +1,12 @@
+[console_scripts]
+add_2ints_client = my_py_pkg.add2ints_client:main
+add_2ints_server = my_py_pkg.add2ints_server:main
+cra_client = my_py_pkg.ComputeRectangleArea_client:main
+cra_server = my_py_pkg.ComputeRectangleArea_server:main
+hola_incrementar = my_py_pkg.node_python_t:main
+hola_mundo = my_py_pkg.node_python_1:main
+hw_status_publisher = my_py_pkg.HardwareStatus_publisher:main
+hw_status_subscriber = my_py_pkg.HardwareStatus_subscriber:main
+my_listener = my_py_pkg.my_listener:main
+my_talker = my_py_pkg.my_talker:main
+

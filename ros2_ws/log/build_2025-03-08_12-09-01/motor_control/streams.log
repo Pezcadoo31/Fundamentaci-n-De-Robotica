@@ -1,0 +1,23 @@
+[1.464s] Invoking command in '/home/abdy/ros2_ws/src/motor_control': PYTHONPATH=/home/abdy/ros2_ws/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdy/ros2_ws/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_control build --build-base /home/abdy/ros2_ws/build/motor_control/build install --record /home/abdy/ros2_ws/build/motor_control/install.log --single-version-externally-managed install_data
+[1.701s] running egg_info
+[1.701s] writing ../../build/motor_control/motor_control.egg-info/PKG-INFO
+[1.701s] writing dependency_links to ../../build/motor_control/motor_control.egg-info/dependency_links.txt
+[1.701s] writing entry points to ../../build/motor_control/motor_control.egg-info/entry_points.txt
+[1.702s] writing requirements to ../../build/motor_control/motor_control.egg-info/requires.txt
+[1.702s] writing top-level names to ../../build/motor_control/motor_control.egg-info/top_level.txt
+[1.703s] reading manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[1.704s] adding license file 'LICENSE'
+[1.704s] writing manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[1.705s] running build
+[1.705s] running build_py
+[1.705s] running install
+[1.705s] running install_lib
+[1.708s] running install_data
+[1.708s] running install_egg_info
+[1.709s] removing '/home/abdy/ros2_ws/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.711s] Copying ../../build/motor_control/motor_control.egg-info to /home/abdy/ros2_ws/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info
+[1.712s] running install_scripts
+[1.739s] Installing dc_motor script to /home/abdy/ros2_ws/install/motor_control/lib/motor_control
+[1.739s] Installing set_point script to /home/abdy/ros2_ws/install/motor_control/lib/motor_control
+[1.740s] writing list of installed files to '/home/abdy/ros2_ws/build/motor_control/install.log'
+[1.770s] Invoked command in '/home/abdy/ros2_ws/src/motor_control' returned '0': PYTHONPATH=/home/abdy/ros2_ws/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdy/ros2_ws/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_control build --build-base /home/abdy/ros2_ws/build/motor_control/build install --record /home/abdy/ros2_ws/build/motor_control/install.log --single-version-externally-managed install_data

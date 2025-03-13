@@ -1,0 +1,21 @@
+[1.138s] Invoking command in '/home/abdy/ros2_ws/src/step_signal_pkg': PYTHONPATH=/home/abdy/ros2_ws/build/step_signal_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdy/ros2_ws/install/step_signal_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/step_signal_pkg build --build-base /home/abdy/ros2_ws/build/step_signal_pkg/build install --record /home/abdy/ros2_ws/build/step_signal_pkg/install.log --single-version-externally-managed install_data
+[1.351s] running egg_info
+[1.351s] writing ../../build/step_signal_pkg/step_signal_pkg.egg-info/PKG-INFO
+[1.351s] writing dependency_links to ../../build/step_signal_pkg/step_signal_pkg.egg-info/dependency_links.txt
+[1.353s] writing entry points to ../../build/step_signal_pkg/step_signal_pkg.egg-info/entry_points.txt
+[1.353s] writing requirements to ../../build/step_signal_pkg/step_signal_pkg.egg-info/requires.txt
+[1.353s] writing top-level names to ../../build/step_signal_pkg/step_signal_pkg.egg-info/top_level.txt
+[1.353s] reading manifest file '../../build/step_signal_pkg/step_signal_pkg.egg-info/SOURCES.txt'
+[1.354s] writing manifest file '../../build/step_signal_pkg/step_signal_pkg.egg-info/SOURCES.txt'
+[1.354s] running build
+[1.354s] running build_py
+[1.354s] running install
+[1.355s] running install_lib
+[1.356s] running install_data
+[1.356s] running install_egg_info
+[1.357s] removing '/home/abdy/ros2_ws/install/step_signal_pkg/lib/python3.10/site-packages/step_signal_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.357s] Copying ../../build/step_signal_pkg/step_signal_pkg.egg-info to /home/abdy/ros2_ws/install/step_signal_pkg/lib/python3.10/site-packages/step_signal_pkg-0.0.0-py3.10.egg-info
+[1.360s] running install_scripts
+[1.386s] Installing step_signal_node script to /home/abdy/ros2_ws/install/step_signal_pkg/lib/step_signal_pkg
+[1.386s] writing list of installed files to '/home/abdy/ros2_ws/build/step_signal_pkg/install.log'
+[1.424s] Invoked command in '/home/abdy/ros2_ws/src/step_signal_pkg' returned '0': PYTHONPATH=/home/abdy/ros2_ws/build/step_signal_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdy/ros2_ws/install/step_signal_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/step_signal_pkg build --build-base /home/abdy/ros2_ws/build/step_signal_pkg/build install --record /home/abdy/ros2_ws/build/step_signal_pkg/install.log --single-version-externally-managed install_data

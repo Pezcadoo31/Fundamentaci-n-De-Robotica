@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_interfaces",
+  "non_idl_tuples": [
+    "/home/abdy/ros2_ws/src/custom_interfaces:srv/SetProcessBool.srv"
+  ]
+}

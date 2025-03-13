@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/challenge2/challenge2.egg-info
+writing ../../build/challenge2/challenge2.egg-info/PKG-INFO
+writing dependency_links to ../../build/challenge2/challenge2.egg-info/dependency_links.txt
+writing entry points to ../../build/challenge2/challenge2.egg-info/entry_points.txt
+writing requirements to ../../build/challenge2/challenge2.egg-info/requires.txt
+writing top-level names to ../../build/challenge2/challenge2.egg-info/top_level.txt
+writing manifest file '../../build/challenge2/challenge2.egg-info/SOURCES.txt'
+reading manifest file '../../build/challenge2/challenge2.egg-info/SOURCES.txt'
+writing manifest file '../../build/challenge2/challenge2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/abdy/ros2_ws/build/challenge2/build
+creating /home/abdy/ros2_ws/build/challenge2/build/lib
+creating /home/abdy/ros2_ws/build/challenge2/build/lib/challenge2
+copying challenge2/__init__.py -> /home/abdy/ros2_ws/build/challenge2/build/lib/challenge2
+copying challenge2/ctrl.py -> /home/abdy/ros2_ws/build/challenge2/build/lib/challenge2
+running install
+running install_lib
+creating /home/abdy/ros2_ws/install/challenge2/lib/python3.10/site-packages/challenge2
+copying /home/abdy/ros2_ws/build/challenge2/build/lib/challenge2/__init__.py -> /home/abdy/ros2_ws/install/challenge2/lib/python3.10/site-packages/challenge2
+copying /home/abdy/ros2_ws/build/challenge2/build/lib/challenge2/ctrl.py -> /home/abdy/ros2_ws/install/challenge2/lib/python3.10/site-packages/challenge2
+byte-compiling /home/abdy/ros2_ws/install/challenge2/lib/python3.10/site-packages/challenge2/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/abdy/ros2_ws/install/challenge2/lib/python3.10/site-packages/challenge2/ctrl.py to ctrl.cpython-310.pyc
+running install_data
+creating /home/abdy/ros2_ws/install/challenge2/share/ament_index
+creating /home/abdy/ros2_ws/install/challenge2/share/ament_index/resource_index
+creating /home/abdy/ros2_ws/install/challenge2/share/ament_index/resource_index/packages
+copying resource/challenge2 -> /home/abdy/ros2_ws/install/challenge2/share/ament_index/resource_index/packages
+copying package.xml -> /home/abdy/ros2_ws/install/challenge2/share/challenge2
+running install_egg_info
+Copying ../../build/challenge2/challenge2.egg-info to /home/abdy/ros2_ws/install/challenge2/lib/python3.10/site-packages/challenge2-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ctrl script to /home/abdy/ros2_ws/install/challenge2/lib/challenge2
+writing list of installed files to '/home/abdy/ros2_ws/build/challenge2/install.log'

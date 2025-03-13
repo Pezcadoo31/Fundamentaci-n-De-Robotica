@@ -1,0 +1,481 @@
+[0.000000] (-) TimerEvent: {}
+[0.000778] (basic_comms) JobQueued: {'identifier': 'basic_comms', 'dependencies': OrderedDict()}
+[0.000977] (my_interfaces) JobQueued: {'identifier': 'my_interfaces', 'dependencies': OrderedDict()}
+[0.001901] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.002141] (signal_processing) JobQueued: {'identifier': 'signal_processing', 'dependencies': OrderedDict()}
+[0.002322] (basic_comms) JobStarted: {'identifier': 'basic_comms'}
+[0.030412] (my_interfaces) JobStarted: {'identifier': 'my_interfaces'}
+[0.045894] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.064283] (signal_processing) JobStarted: {'identifier': 'signal_processing'}
+[0.096341] (-) TimerEvent: {}
+[0.197371] (-) TimerEvent: {}
+[0.298435] (-) TimerEvent: {}
+[0.399529] (-) TimerEvent: {}
+[0.500518] (-) TimerEvent: {}
+[0.601709] (-) TimerEvent: {}
+[0.702762] (-) TimerEvent: {}
+[0.803892] (-) TimerEvent: {}
+[0.902539] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'cmake'}
+[0.904070] (-) TimerEvent: {}
+[0.905596] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'build'}
+[0.909003] (my_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abdy/ros2_ws/build/my_interfaces', '--', '-j6', '-l6'], 'cwd': '/home/abdy/ros2_ws/build/my_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'abdy'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abdy/ros2_ws/install/my_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abdy'), ('OLDPWD', '/home/abdy/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '1274'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abdy/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abdy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abdy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/AVANS:@/tmp/.ICE-unix/1245,unix/AVANS:/tmp/.ICE-unix/1245'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9e68a49a_9471_4be3_bb71_c9d1e0d4457c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9BBA22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.190'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/abdy/ros2_ws/install/signal_processing:/home/abdy/ros2_ws/install/my_py_pkg:/home/abdy/ros2_ws/install/my_interfaces:/home/abdy/ros2_ws/install/basic_comms:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abdy/ros2_ws/build/my_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/abdy/ros2_ws/install/signal_processing/lib/python3.10/site-packages:/home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages:/home/abdy/ros2_ws/install/basic_comms/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/abdy/ros2_ws/install/my_interfaces:/home/abdy/ros2_ws/install/signal_processing:/home/abdy/ros2_ws/install/my_py_pkg:/home/abdy/ros2_ws/install/basic_comms:/opt/ros/humble')]), 'shell': False}
+[1.004544] (-) TimerEvent: {}
+[1.105441] (-) TimerEvent: {}
+[1.206387] (-) TimerEvent: {}
+[1.307516] (-) TimerEvent: {}
+[1.408948] (-) TimerEvent: {}
+[1.509962] (-) TimerEvent: {}
+[1.611101] (-) TimerEvent: {}
+[1.712111] (-) TimerEvent: {}
+[1.742250] (my_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.742801] (my_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.742989] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.743417] (my_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.743689] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.812446] (-) TimerEvent: {}
+[1.913350] (-) TimerEvent: {}
+[2.014159] (-) TimerEvent: {}
+[2.114934] (-) TimerEvent: {}
+[2.216030] (-) TimerEvent: {}
+[2.317032] (-) TimerEvent: {}
+[2.418405] (-) TimerEvent: {}
+[2.457400] (my_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.518608] (-) TimerEvent: {}
+[2.619557] (-) TimerEvent: {}
+[2.720440] (-) TimerEvent: {}
+[2.821386] (-) TimerEvent: {}
+[2.922281] (-) TimerEvent: {}
+[3.023103] (-) TimerEvent: {}
+[3.068687] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.123388] (-) TimerEvent: {}
+[3.224141] (-) TimerEvent: {}
+[3.325819] (-) TimerEvent: {}
+[3.427055] (-) TimerEvent: {}
+[3.528084] (-) TimerEvent: {}
+[3.548339] (basic_comms) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/basic_comms', 'build', '--build-base', '/home/abdy/ros2_ws/build/basic_comms/build', 'install', '--record', '/home/abdy/ros2_ws/build/basic_comms/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/abdy/ros2_ws/src/basic_comms', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'abdy', 'LC_TIME': 'es_MX.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/abdy/ros2_ws/install/my_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/abdy', 'OLDPWD': '/home/abdy/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'SYSTEMD_EXEC_PID': '1274', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/abdy/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'abdy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'abdy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/AVANS:@/tmp/.ICE-unix/1245,unix/AVANS:/tmp/.ICE-unix/1245', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9e68a49a_9471_4be3_bb71_c9d1e0d4457c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.9BBA22', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.190', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/abdy/ros2_ws/install/signal_processing:/home/abdy/ros2_ws/install/my_py_pkg:/home/abdy/ros2_ws/install/my_interfaces:/home/abdy/ros2_ws/install/basic_comms:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/abdy/ros2_ws/build/basic_comms', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/abdy/ros2_ws/build/basic_comms/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdy/ros2_ws/install/basic_comms/lib/python3.10/site-packages:/home/abdy/ros2_ws/install/signal_processing/lib/python3.10/site-packages:/home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages:/home/abdy/ros2_ws/install/basic_comms/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/abdy/ros2_ws/install/my_interfaces'}, 'shell': False}
+[3.558538] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/abdy/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/home/abdy/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/abdy/ros2_ws/src/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'abdy', 'LC_TIME': 'es_MX.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/abdy/ros2_ws/install/my_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/abdy', 'OLDPWD': '/home/abdy/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'SYSTEMD_EXEC_PID': '1274', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/abdy/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'abdy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'abdy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/AVANS:@/tmp/.ICE-unix/1245,unix/AVANS:/tmp/.ICE-unix/1245', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9e68a49a_9471_4be3_bb71_c9d1e0d4457c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.9BBA22', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.190', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/abdy/ros2_ws/install/signal_processing:/home/abdy/ros2_ws/install/my_py_pkg:/home/abdy/ros2_ws/install/my_interfaces:/home/abdy/ros2_ws/install/basic_comms:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/abdy/ros2_ws/build/my_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/abdy/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/abdy/ros2_ws/install/signal_processing/lib/python3.10/site-packages:/home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages:/home/abdy/ros2_ws/install/basic_comms/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/abdy/ros2_ws/install/my_interfaces'}, 'shell': False}
+[3.582326] (signal_processing) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/signal_processing', 'build', '--build-base', '/home/abdy/ros2_ws/build/signal_processing/build', 'install', '--record', '/home/abdy/ros2_ws/build/signal_processing/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/abdy/ros2_ws/src/signal_processing', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'abdy', 'LC_TIME': 'es_MX.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/abdy/ros2_ws/install/my_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/abdy', 'OLDPWD': '/home/abdy/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'SYSTEMD_EXEC_PID': '1274', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/abdy/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'abdy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'abdy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/AVANS:@/tmp/.ICE-unix/1245,unix/AVANS:/tmp/.ICE-unix/1245', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9e68a49a_9471_4be3_bb71_c9d1e0d4457c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.9BBA22', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.190', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/abdy/ros2_ws/install/signal_processing:/home/abdy/ros2_ws/install/my_py_pkg:/home/abdy/ros2_ws/install/my_interfaces:/home/abdy/ros2_ws/install/basic_comms:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/abdy/ros2_ws/build/signal_processing', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/abdy/ros2_ws/build/signal_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdy/ros2_ws/install/signal_processing/lib/python3.10/site-packages:/home/abdy/ros2_ws/install/signal_processing/lib/python3.10/site-packages:/home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages:/home/abdy/ros2_ws/install/basic_comms/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/abdy/ros2_ws/install/my_interfaces'}, 'shell': False}
+[3.628375] (-) TimerEvent: {}
+[3.729683] (-) TimerEvent: {}
+[3.831889] (-) TimerEvent: {}
+[3.872442] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.932289] (-) TimerEvent: {}
+[3.949568] (my_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.025333] (my_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.026011] (my_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.026195] (my_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.032539] (-) TimerEvent: {}
+[4.067666] (my_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.101332] (my_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.104123] (my_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.111567] (my_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.132957] (-) TimerEvent: {}
+[4.233438] (my_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[4.233978] (-) TimerEvent: {}
+[4.277632] (my_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/abdy/ros2_ws/build/my_interfaces\n'}
+[4.288902] (basic_comms) StdoutLine: {'line': b'running egg_info\n'}
+[4.292944] (basic_comms) StdoutLine: {'line': b'writing ../../build/basic_comms/basic_comms.egg-info/PKG-INFO\n'}
+[4.293701] (basic_comms) StdoutLine: {'line': b'writing dependency_links to ../../build/basic_comms/basic_comms.egg-info/dependency_links.txt\n'}
+[4.294548] (basic_comms) StdoutLine: {'line': b'writing entry points to ../../build/basic_comms/basic_comms.egg-info/entry_points.txt\n'}
+[4.295880] (basic_comms) StdoutLine: {'line': b'writing requirements to ../../build/basic_comms/basic_comms.egg-info/requires.txt\n'}
+[4.296468] (basic_comms) StdoutLine: {'line': b'writing top-level names to ../../build/basic_comms/basic_comms.egg-info/top_level.txt\n'}
+[4.304644] (basic_comms) StdoutLine: {'line': b"reading manifest file '../../build/basic_comms/basic_comms.egg-info/SOURCES.txt'\n"}
+[4.308238] (basic_comms) StdoutLine: {'line': b"writing manifest file '../../build/basic_comms/basic_comms.egg-info/SOURCES.txt'\n"}
+[4.309067] (basic_comms) StdoutLine: {'line': b'running build\n'}
+[4.309474] (basic_comms) StdoutLine: {'line': b'running build_py\n'}
+[4.309743] (basic_comms) StdoutLine: {'line': b'running install\n'}
+[4.310134] (basic_comms) StdoutLine: {'line': b'running install_lib\n'}
+[4.314341] (basic_comms) StdoutLine: {'line': b'running install_data\n'}
+[4.314981] (basic_comms) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.320290] (basic_comms) StdoutLine: {'line': b"removing '/home/abdy/ros2_ws/install/basic_comms/lib/python3.10/site-packages/basic_comms-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.320894] (basic_comms) StdoutLine: {'line': b'Copying ../../build/basic_comms/basic_comms.egg-info to /home/abdy/ros2_ws/install/basic_comms/lib/python3.10/site-packages/basic_comms-0.0.0-py3.10.egg-info\n'}
+[4.322858] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.323485] (basic_comms) StdoutLine: {'line': b'running install_scripts\n'}
+[4.325022] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[4.325926] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[4.326961] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[4.327564] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[4.327983] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[4.329560] (signal_processing) StdoutLine: {'line': b'running egg_info\n'}
+[4.333487] (signal_processing) StdoutLine: {'line': b'writing ../../build/signal_processing/signal_processing.egg-info/PKG-INFO\n'}
+[4.334008] (-) TimerEvent: {}
+[4.337443] (signal_processing) StdoutLine: {'line': b'writing dependency_links to ../../build/signal_processing/signal_processing.egg-info/dependency_links.txt\n'}
+[4.338039] (signal_processing) StdoutLine: {'line': b'writing entry points to ../../build/signal_processing/signal_processing.egg-info/entry_points.txt\n'}
+[4.338594] (signal_processing) StdoutLine: {'line': b'writing requirements to ../../build/signal_processing/signal_processing.egg-info/requires.txt\n'}
+[4.338830] (signal_processing) StdoutLine: {'line': b'writing top-level names to ../../build/signal_processing/signal_processing.egg-info/top_level.txt\n'}
+[4.338993] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[4.339233] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[4.339411] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[4.339568] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[4.339807] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[4.340107] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[4.345050] (signal_processing) StdoutLine: {'line': b"reading manifest file '../../build/signal_processing/signal_processing.egg-info/SOURCES.txt'\n"}
+[4.345526] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[4.345729] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.346259] (signal_processing) StdoutLine: {'line': b"writing manifest file '../../build/signal_processing/signal_processing.egg-info/SOURCES.txt'\n"}
+[4.347488] (signal_processing) StdoutLine: {'line': b'running build\n'}
+[4.347856] (signal_processing) StdoutLine: {'line': b'running build_py\n'}
+[4.349832] (signal_processing) StdoutLine: {'line': b'running install\n'}
+[4.350886] (signal_processing) StdoutLine: {'line': b'running install_lib\n'}
+[4.351149] (my_py_pkg) StdoutLine: {'line': b"removing '/home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.351734] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[4.354116] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[4.355224] (signal_processing) StdoutLine: {'line': b'running install_data\n'}
+[4.357387] (signal_processing) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.360585] (signal_processing) StdoutLine: {'line': b"removing '/home/abdy/ros2_ws/install/signal_processing/lib/python3.10/site-packages/signal_processing-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.361477] (signal_processing) StdoutLine: {'line': b'Copying ../../build/signal_processing/signal_processing.egg-info to /home/abdy/ros2_ws/install/signal_processing/lib/python3.10/site-packages/signal_processing-0.0.0-py3.10.egg-info\n'}
+[4.367149] (signal_processing) StdoutLine: {'line': b'running install_scripts\n'}
+[4.377600] (my_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.405793] (basic_comms) StdoutLine: {'line': b'Installing listener script to /home/abdy/ros2_ws/install/basic_comms/lib/basic_comms\n'}
+[4.406507] (basic_comms) StdoutLine: {'line': b'Installing talker script to /home/abdy/ros2_ws/install/basic_comms/lib/basic_comms\n'}
+[4.409810] (basic_comms) StdoutLine: {'line': b"writing list of installed files to '/home/abdy/ros2_ws/build/basic_comms/install.log'\n"}
+[4.422982] (my_py_pkg) StdoutLine: {'line': b'Installing add_2ints_client script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[4.423776] (my_py_pkg) StdoutLine: {'line': b'Installing add_2ints_server script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[4.424733] (my_py_pkg) StdoutLine: {'line': b'Installing hola_incrementar script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[4.425505] (my_py_pkg) StdoutLine: {'line': b'Installing hola_mundo script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[4.425966] (my_py_pkg) StdoutLine: {'line': b'Installing hw_status_publisher script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[4.426690] (my_py_pkg) StdoutLine: {'line': b'Installing hw_status_subscriber script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[4.427314] (my_py_pkg) StdoutLine: {'line': b'Installing my_listener script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[4.431324] (my_py_pkg) StdoutLine: {'line': b'Installing my_talker script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[4.431665] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/abdy/ros2_ws/build/my_py_pkg/install.log'\n"}
+[4.434195] (-) TimerEvent: {}
+[4.445976] (signal_processing) StdoutLine: {'line': b'Installing PROCESS script to /home/abdy/ros2_ws/install/signal_processing/lib/signal_processing\n'}
+[4.446465] (signal_processing) StdoutLine: {'line': b'Installing a script to /home/abdy/ros2_ws/install/signal_processing/lib/signal_processing\n'}
+[4.446657] (signal_processing) StdoutLine: {'line': b'Installing process script to /home/abdy/ros2_ws/install/signal_processing/lib/signal_processing\n'}
+[4.446826] (signal_processing) StdoutLine: {'line': b'Installing random_generator script to /home/abdy/ros2_ws/install/signal_processing/lib/signal_processing\n'}
+[4.447087] (signal_processing) StdoutLine: {'line': b'Installing signal_generator script to /home/abdy/ros2_ws/install/signal_processing/lib/signal_processing\n'}
+[4.447299] (signal_processing) StdoutLine: {'line': b'Installing signal_generator_param script to /home/abdy/ros2_ws/install/signal_processing/lib/signal_processing\n'}
+[4.447575] (signal_processing) StdoutLine: {'line': b"writing list of installed files to '/home/abdy/ros2_ws/build/signal_processing/install.log'\n"}
+[4.459943] (my_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.465319] (basic_comms) CommandEnded: {'returncode': 0}
+[4.481092] (my_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_my_interfaces\n'}
+[4.506801] (basic_comms) JobEnded: {'identifier': 'basic_comms', 'rc': 0}
+[4.513379] (my_py_pkg) CommandEnded: {'returncode': 0}
+[4.535479] (-) TimerEvent: {}
+[4.536715] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[4.540257] (signal_processing) CommandEnded: {'returncode': 0}
+[4.576128] (signal_processing) JobEnded: {'identifier': 'signal_processing', 'rc': 0}
+[4.635682] (-) TimerEvent: {}
+[4.737175] (-) TimerEvent: {}
+[4.840501] (-) TimerEvent: {}
+[4.941370] (-) TimerEvent: {}
+[5.042621] (-) TimerEvent: {}
+[5.143360] (-) TimerEvent: {}
+[5.244191] (-) TimerEvent: {}
+[5.289642] (my_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[5.292527] (my_interfaces) StdoutLine: {'line': b'writing my_interfaces.egg-info/PKG-INFO\n'}
+[5.293582] (my_interfaces) StdoutLine: {'line': b'writing dependency_links to my_interfaces.egg-info/dependency_links.txt\n'}
+[5.294532] (my_interfaces) StdoutLine: {'line': b'writing top-level names to my_interfaces.egg-info/top_level.txt\n'}
+[5.301968] (my_interfaces) StdoutLine: {'line': b"reading manifest file 'my_interfaces.egg-info/SOURCES.txt'\n"}
+[5.303822] (my_interfaces) StdoutLine: {'line': b"writing manifest file 'my_interfaces.egg-info/SOURCES.txt'\n"}
+[5.344586] (-) TimerEvent: {}
+[5.383365] (my_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_my_interfaces_egg\n'}
+[5.445023] (-) TimerEvent: {}
+[5.461345] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_generator_c\x1b[0m\n'}
+[5.507362] (my_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/msg/detail/hardware_status__functions.c.o\x1b[0m\n'}
+[5.514764] (my_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/compute_rectangle_area__functions.c.o\x1b[0m\n'}
+[5.542099] (my_interfaces) StdoutLine: {'line': b'[ 10%] Built target my_interfaces__cpp\n'}
+[5.545156] (-) TimerEvent: {}
+[5.580888] (my_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.583281] (my_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.585104] (my_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.645502] (-) TimerEvent: {}
+[5.702656] (my_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libmy_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[5.745837] (-) TimerEvent: {}
+[5.843454] (my_interfaces) StdoutLine: {'line': b'[ 20%] Built target my_interfaces__rosidl_generator_c\n'}
+[5.846043] (-) TimerEvent: {}
+[5.893498] (my_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.895888] (my_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.897875] (my_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.947464] (-) TimerEvent: {}
+[6.048507] (-) TimerEvent: {}
+[6.149446] (-) TimerEvent: {}
+[6.252814] (-) TimerEvent: {}
+[6.353817] (-) TimerEvent: {}
+[6.415293] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[6.453999] (-) TimerEvent: {}
+[6.463311] (my_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/msg/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[6.537333] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[6.554158] (-) TimerEvent: {}
+[6.584547] (my_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[6.597618] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[6.655340] (-) TimerEvent: {}
+[6.659378] (my_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[6.755528] (-) TimerEvent: {}
+[6.808110] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[6.855765] (-) TimerEvent: {}
+[6.861516] (my_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/msg/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[6.957354] (-) TimerEvent: {}
+[6.977559] (my_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/srv/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[6.979704] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.981629] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[7.033963] (my_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/msg/detail/hardware_status__type_support.c.o\x1b[0m\n'}
+[7.044831] (my_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/msg/detail/hardware_status__type_support_c.cpp.o\x1b[0m\n'}
+[7.058345] (-) TimerEvent: {}
+[7.119396] (my_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.158616] (-) TimerEvent: {}
+[7.160630] (my_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/srv/detail/compute_rectangle_area__type_support.c.o\x1b[0m\n'}
+[7.261358] (-) TimerEvent: {}
+[7.288000] (my_interfaces) StdoutLine: {'line': b'[ 51%] Built target my_interfaces__rosidl_typesupport_c\n'}
+[7.296546] (my_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking C shared library libmy_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.322269] (my_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/srv/detail/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[7.362347] (-) TimerEvent: {}
+[7.398557] (my_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/srv/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[7.428560] (my_interfaces) StdoutLine: {'line': b'[ 58%] Built target my_interfaces__rosidl_typesupport_introspection_c\n'}
+[7.459349] (my_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/srv/detail/dds_fastrtps/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[7.462481] (-) TimerEvent: {}
+[7.565584] (-) TimerEvent: {}
+[7.666372] (-) TimerEvent: {}
+[7.767034] (-) TimerEvent: {}
+[7.869650] (-) TimerEvent: {}
+[7.876256] (my_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/srv/detail/compute_rectangle_area__type_support_c.cpp.o\x1b[0m\n'}
+[7.969854] (-) TimerEvent: {}
+[8.074194] (-) TimerEvent: {}
+[8.174981] (-) TimerEvent: {}
+[8.276949] (-) TimerEvent: {}
+[8.368528] (my_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.377411] (-) TimerEvent: {}
+[8.480604] (-) TimerEvent: {}
+[8.533972] (my_interfaces) StdoutLine: {'line': b'[ 66%] Built target my_interfaces__rosidl_typesupport_cpp\n'}
+[8.580857] (-) TimerEvent: {}
+[8.586456] (my_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.681555] (-) TimerEvent: {}
+[8.782570] (-) TimerEvent: {}
+[8.789079] (my_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.828516] (my_interfaces) StdoutLine: {'line': b'[ 71%] Built target my_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[8.882925] (-) TimerEvent: {}
+[8.971679] (my_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.983303] (-) TimerEvent: {}
+[9.036785] (my_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[9.083628] (-) TimerEvent: {}
+[9.184541] (-) TimerEvent: {}
+[9.213965] (my_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[9.284768] (-) TimerEvent: {}
+[9.294029] (my_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_interfaces\n'}
+[9.375787] (my_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.385133] (-) TimerEvent: {}
+[9.486023] (-) TimerEvent: {}
+[9.586997] (-) TimerEvent: {}
+[9.687968] (-) TimerEvent: {}
+[9.789105] (-) TimerEvent: {}
+[9.890084] (-) TimerEvent: {}
+[9.991092] (-) TimerEvent: {}
+[10.092295] (-) TimerEvent: {}
+[10.193327] (-) TimerEvent: {}
+[10.294369] (-) TimerEvent: {}
+[10.395337] (-) TimerEvent: {}
+[10.496318] (-) TimerEvent: {}
+[10.597333] (-) TimerEvent: {}
+[10.701609] (-) TimerEvent: {}
+[10.762181] (my_interfaces) StdoutLine: {'line': b'[ 76%] Built target my_interfaces__py\n'}
+[10.801857] (-) TimerEvent: {}
+[10.803515] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_generator_py\x1b[0m\n'}
+[10.857739] (my_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_hardware_status_s.c.o\x1b[0m\n'}
+[10.858686] (my_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/srv/_compute_rectangle_area_s.c.o\x1b[0m\n'}
+[10.902193] (-) TimerEvent: {}
+[11.003393] (-) TimerEvent: {}
+[11.106356] (-) TimerEvent: {}
+[11.207055] (-) TimerEvent: {}
+[11.208158] (my_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interfaces/libmy_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[11.307578] (-) TimerEvent: {}
+[11.358613] (my_interfaces) StdoutLine: {'line': b'[ 84%] Built target my_interfaces__rosidl_generator_py\n'}
+[11.398330] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[11.403604] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[11.403970] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[11.407898] (-) TimerEvent: {}
+[11.451465] (my_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.453107] (my_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.453849] (my_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.508299] (-) TimerEvent: {}
+[11.609060] (-) TimerEvent: {}
+[11.710080] (-) TimerEvent: {}
+[11.791589] (my_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.792051] (my_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.799268] (my_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.810387] (-) TimerEvent: {}
+[11.912361] (-) TimerEvent: {}
+[11.915607] (my_interfaces) StdoutLine: {'line': b'[100%] Built target my_interfaces__rosidl_typesupport_c__pyext\n'}
+[11.916602] (my_interfaces) StdoutLine: {'line': b'[100%] Built target my_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[11.930496] (my_interfaces) StdoutLine: {'line': b'[100%] Built target my_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.970548] (my_interfaces) CommandEnded: {'returncode': 0}
+[11.973010] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'install'}
+[12.005696] (my_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/abdy/ros2_ws/build/my_interfaces'], 'cwd': '/home/abdy/ros2_ws/build/my_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'abdy'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/abdy/ros2_ws/install/my_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abdy'), ('OLDPWD', '/home/abdy/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '1274'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abdy/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abdy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abdy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/AVANS:@/tmp/.ICE-unix/1245,unix/AVANS:/tmp/.ICE-unix/1245'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9e68a49a_9471_4be3_bb71_c9d1e0d4457c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9BBA22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.190'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/abdy/ros2_ws/install/signal_processing:/home/abdy/ros2_ws/install/my_py_pkg:/home/abdy/ros2_ws/install/my_interfaces:/home/abdy/ros2_ws/install/basic_comms:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abdy/ros2_ws/build/my_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/abdy/ros2_ws/install/signal_processing/lib/python3.10/site-packages:/home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages:/home/abdy/ros2_ws/install/basic_comms/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/abdy/ros2_ws/install/my_interfaces:/home/abdy/ros2_ws/install/signal_processing:/home/abdy/ros2_ws/install/my_py_pkg:/home/abdy/ros2_ws/install/basic_comms:/opt/ros/humble')]), 'shell': False}
+[12.012494] (-) TimerEvent: {}
+[12.030638] (my_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.032729] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_interfaces\n'}
+[12.033396] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[12.033756] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[12.034089] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[12.034462] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__functions.h\n'}
+[12.035070] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__struct.h\n'}
+[12.035444] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__type_support.h\n'}
+[12.036440] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__functions.c\n'}
+[12.037263] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.037626] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/hardware_status.h\n'}
+[12.038322] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[12.038564] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/compute_rectangle_area.h\n'}
+[12.038739] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[12.038902] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__functions.c\n'}
+[12.039189] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__type_support.h\n'}
+[12.039405] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__struct.h\n'}
+[12.039567] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__functions.h\n'}
+[12.039807] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/environment/library_path.sh\n'}
+[12.039974] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/environment/library_path.dsv\n'}
+[12.040282] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so\n'}
+[12.040567] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/abdy/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so" to ""\n'}
+[12.040857] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[12.041087] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[12.041281] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[12.041449] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h\n'}
+[12.042317] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.042655] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[12.042865] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[12.043028] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_c.h\n'}
+[12.043801] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[12.045557] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/abdy/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.045881] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[12.046365] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[12.046591] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.046756] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[12.046916] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h\n'}
+[12.047731] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__type_support.c\n'}
+[12.048064] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[12.048286] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[12.048450] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h\n'}
+[12.048926] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__type_support.c\n'}
+[12.049797] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[12.050371] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/abdy/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.051492] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so\n'}
+[12.053000] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/abdy/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[12.053541] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[12.054124] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[12.054766] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/hardware_status.hpp\n'}
+[12.055335] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[12.055638] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__struct.hpp\n'}
+[12.056097] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__builder.hpp\n'}
+[12.056873] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__traits.hpp\n'}
+[12.057589] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__type_support.hpp\n'}
+[12.058033] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[12.058475] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[12.058790] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/compute_rectangle_area.hpp\n'}
+[12.059193] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[12.059976] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__builder.hpp\n'}
+[12.060168] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__traits.hpp\n'}
+[12.060383] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__type_support.hpp\n'}
+[12.060626] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__struct.hpp\n'}
+[12.061117] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[12.061683] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[12.061892] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[12.062055] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/dds_fastrtps\n'}
+[12.062368] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.062594] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.063263] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[12.063673] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[12.064331] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/dds_fastrtps\n'}
+[12.064797] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.065003] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.065408] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/abdy/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[12.065596] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[12.065775] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[12.065934] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[12.066089] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__type_support.cpp\n'}
+[12.066272] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.066442] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[12.066596] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[12.066751] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.067355] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__type_support.cpp\n'}
+[12.067903] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[12.068083] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/abdy/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.068278] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so\n'}
+[12.069053] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/abdy/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[12.069293] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.sh\n'}
+[12.069965] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.dsv\n'}
+[12.070180] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info\n'}
+[12.070800] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[12.070998] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[12.071504] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[12.071708] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[12.072341] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces\n'}
+[12.073117] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/__init__.py\n'}
+[12.073390] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.073607] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.073810] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg\n'}
+[12.074342] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_hardware_status.py\n'}
+[12.074611] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_hardware_status_s.c\n'}
+[12.075031] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/__init__.py\n'}
+[12.075269] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/libmy_interfaces__rosidl_generator_py.so\n'}
+[12.075830] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.076486] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.077088] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[12.077338] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.077887] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv\n'}
+[12.078164] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/__init__.py\n'}
+[12.078725] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_compute_rectangle_area.py\n'}
+[12.078897] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_compute_rectangle_area_s.c\n'}
+[12.112793] (-) TimerEvent: {}
+[12.202884] (my_interfaces) StdoutLine: {'line': b"Listing '/home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces'...\n"}
+[12.203528] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/__init__.py'...\n"}
+[12.203776] (my_interfaces) StdoutLine: {'line': b"Listing '/home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg'...\n"}
+[12.203941] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/__init__.py'...\n"}
+[12.204102] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_hardware_status.py'...\n"}
+[12.204289] (my_interfaces) StdoutLine: {'line': b"Listing '/home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv'...\n"}
+[12.204510] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/__init__.py'...\n"}
+[12.204700] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_compute_rectangle_area.py'...\n"}
+[12.213104] (-) TimerEvent: {}
+[12.214658] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.216316] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.217295] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.218727] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.219683] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.220938] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/abdy/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.221664] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so\n'}
+[12.223677] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/abdy/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so" to ""\n'}
+[12.225609] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/msg/HardwareStatus.idl\n'}
+[12.226697] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/srv/ComputeRectangleArea.idl\n'}
+[12.227810] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/msg/HardwareStatus.msg\n'}
+[12.228507] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/srv/ComputeRectangleArea.srv\n'}
+[12.228801] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/srv/ComputeRectangleArea_Request.msg\n'}
+[12.229667] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/srv/ComputeRectangleArea_Response.msg\n'}
+[12.229889] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/ament_index/resource_index/package_run_dependencies/my_interfaces\n'}
+[12.230516] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/ament_index/resource_index/parent_prefix_path/my_interfaces\n'}
+[12.231324] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.sh\n'}
+[12.231803] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.dsv\n'}
+[12.232148] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/environment/path.sh\n'}
+[12.233721] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/environment/path.dsv\n'}
+[12.233983] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.bash\n'}
+[12.234148] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.sh\n'}
+[12.234363] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.zsh\n'}
+[12.234522] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.dsv\n'}
+[12.234676] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/package.dsv\n'}
+[12.234831] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/ament_index/resource_index/packages/my_interfaces\n'}
+[12.234986] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport.cmake\n'}
+[12.235140] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.235490] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.235667] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.235822] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.235979] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.236135] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[12.236417] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.236579] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cppExport.cmake\n'}
+[12.236738] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.236890] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.237042] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.237374] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.237582] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[12.237739] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.237900] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport.cmake\n'}
+[12.238244] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.239966] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[12.240860] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.241368] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.241828] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.242378] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.242836] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.243287] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.246035] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig.cmake\n'}
+[12.246572] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig-version.cmake\n'}
+[12.251912] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/abdy/ros2_ws/install/my_interfaces/share/my_interfaces/package.xml\n'}
+[12.252750] (my_interfaces) CommandEnded: {'returncode': 0}
+[12.308768] (my_interfaces) JobEnded: {'identifier': 'my_interfaces', 'rc': 0}
+[12.313524] (-) TimerEvent: {}
+[12.313940] (-) EventReactorShutdown: {}

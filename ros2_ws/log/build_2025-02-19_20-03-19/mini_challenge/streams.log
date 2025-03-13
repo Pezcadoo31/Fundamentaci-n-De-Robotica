@@ -1,0 +1,22 @@
+[3.237s] Invoking command in '/home/abdy/ros2_ws/src/mini_challenge': PYTHONPATH=/home/abdy/ros2_ws/build/mini_challenge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdy/ros2_ws/install/mini_challenge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mini_challenge build --build-base /home/abdy/ros2_ws/build/mini_challenge/build install --record /home/abdy/ros2_ws/build/mini_challenge/install.log --single-version-externally-managed install_data
+[3.672s] running egg_info
+[3.672s] writing ../../build/mini_challenge/mini_challenge.egg-info/PKG-INFO
+[3.673s] writing dependency_links to ../../build/mini_challenge/mini_challenge.egg-info/dependency_links.txt
+[3.675s] writing entry points to ../../build/mini_challenge/mini_challenge.egg-info/entry_points.txt
+[3.675s] writing requirements to ../../build/mini_challenge/mini_challenge.egg-info/requires.txt
+[3.675s] writing top-level names to ../../build/mini_challenge/mini_challenge.egg-info/top_level.txt
+[3.677s] reading manifest file '../../build/mini_challenge/mini_challenge.egg-info/SOURCES.txt'
+[3.678s] writing manifest file '../../build/mini_challenge/mini_challenge.egg-info/SOURCES.txt'
+[3.679s] running build
+[3.679s] running build_py
+[3.681s] running install
+[3.682s] running install_lib
+[3.685s] running install_data
+[3.686s] running install_egg_info
+[3.690s] removing '/home/abdy/ros2_ws/install/mini_challenge/lib/python3.10/site-packages/mini_challenge-0.0.0-py3.10.egg-info' (and everything under it)
+[3.690s] Copying ../../build/mini_challenge/mini_challenge.egg-info to /home/abdy/ros2_ws/install/mini_challenge/lib/python3.10/site-packages/mini_challenge-0.0.0-py3.10.egg-info
+[3.691s] running install_scripts
+[3.724s] Installing process_mini script to /home/abdy/ros2_ws/install/mini_challenge/lib/mini_challenge
+[3.734s] Installing signal_generator_mini script to /home/abdy/ros2_ws/install/mini_challenge/lib/mini_challenge
+[3.734s] writing list of installed files to '/home/abdy/ros2_ws/build/mini_challenge/install.log'
+[3.759s] Invoked command in '/home/abdy/ros2_ws/src/mini_challenge' returned '0': PYTHONPATH=/home/abdy/ros2_ws/build/mini_challenge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdy/ros2_ws/install/mini_challenge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mini_challenge build --build-base /home/abdy/ros2_ws/build/mini_challenge/build install --record /home/abdy/ros2_ws/build/mini_challenge/install.log --single-version-externally-managed install_data

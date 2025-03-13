@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="mini_challenge" exec="signal_generator_mini" name="signal_generator_mini" output="screen"/>
+  <node pkg="mini_challenge" exec="process_mini" name="process_mini" output="screen"/>
+  <node pkg="rqt_plot" exec="rqt_plot" args="/signal/data /proc_signal/data" output="screen"/>
+  <node pkg="rqt_graph" exec="rqt_graph" output="screen"/>
+</launch>
+

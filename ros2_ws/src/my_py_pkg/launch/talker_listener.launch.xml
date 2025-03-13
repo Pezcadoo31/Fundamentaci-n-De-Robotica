@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+ <node pkg="my_py_pkg" exec="my_talker"></node>
+ <node pkg="my_py_pkg" exec="my_listener" />
+ <node pkg="rqt_graph" exec="rqt_graph" />
+</launch>

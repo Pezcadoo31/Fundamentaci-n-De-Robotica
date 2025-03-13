@@ -1,0 +1,3 @@
+float32 temperature
+bool are_motors_ready
+string debug_status

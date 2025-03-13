@@ -1,0 +1,5 @@
+  File "/home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/node_python_1.py", line 7
+    super():__init__("my_node")
+    ^^^^^^^
+SyntaxError: illegal target for annotation
+

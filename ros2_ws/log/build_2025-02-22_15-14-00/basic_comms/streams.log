@@ -1,0 +1,22 @@
+[1.398s] Invoking command in '/home/abdy/ros2_ws/src/basic_comms': PYTHONPATH=/home/abdy/ros2_ws/build/basic_comms/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdy/ros2_ws/install/basic_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/basic_comms build --build-base /home/abdy/ros2_ws/build/basic_comms/build install --record /home/abdy/ros2_ws/build/basic_comms/install.log --single-version-externally-managed install_data
+[1.654s] running egg_info
+[1.656s] writing ../../build/basic_comms/basic_comms.egg-info/PKG-INFO
+[1.656s] writing dependency_links to ../../build/basic_comms/basic_comms.egg-info/dependency_links.txt
+[1.656s] writing entry points to ../../build/basic_comms/basic_comms.egg-info/entry_points.txt
+[1.656s] writing requirements to ../../build/basic_comms/basic_comms.egg-info/requires.txt
+[1.656s] writing top-level names to ../../build/basic_comms/basic_comms.egg-info/top_level.txt
+[1.661s] reading manifest file '../../build/basic_comms/basic_comms.egg-info/SOURCES.txt'
+[1.662s] writing manifest file '../../build/basic_comms/basic_comms.egg-info/SOURCES.txt'
+[1.662s] running build
+[1.662s] running build_py
+[1.662s] running install
+[1.663s] running install_lib
+[1.671s] running install_data
+[1.671s] running install_egg_info
+[1.686s] removing '/home/abdy/ros2_ws/install/basic_comms/lib/python3.10/site-packages/basic_comms-0.0.0-py3.10.egg-info' (and everything under it)
+[1.686s] Copying ../../build/basic_comms/basic_comms.egg-info to /home/abdy/ros2_ws/install/basic_comms/lib/python3.10/site-packages/basic_comms-0.0.0-py3.10.egg-info
+[1.693s] running install_scripts
+[1.736s] Installing listener script to /home/abdy/ros2_ws/install/basic_comms/lib/basic_comms
+[1.737s] Installing talker script to /home/abdy/ros2_ws/install/basic_comms/lib/basic_comms
+[1.737s] writing list of installed files to '/home/abdy/ros2_ws/build/basic_comms/install.log'
+[1.768s] Invoked command in '/home/abdy/ros2_ws/src/basic_comms' returned '0': PYTHONPATH=/home/abdy/ros2_ws/build/basic_comms/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdy/ros2_ws/install/basic_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/basic_comms build --build-base /home/abdy/ros2_ws/build/basic_comms/build install --record /home/abdy/ros2_ws/build/basic_comms/install.log --single-version-externally-managed install_data

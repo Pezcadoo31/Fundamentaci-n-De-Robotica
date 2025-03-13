@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- <node pkg="signal_processing" exec="a" args="1.5 0 0 1 0.05 3"/> -->
+    <node pkg="signal_processing" exec="signal_generator_param" >
+        <param name="amplitude" value="2.0"/>
+        <param name="offset" value="0.0"/>
+        
+    </node>
+
+    <node pkg="signal_processing" exec="PROCESS"/>
+    <node pkg="rqt_plot" exec="rqt_plot" args="/signal_generator/data/processed_signal/data"/>
+    <!-- executable cmd="plotjuggler" /> -->
+    
+</launch>

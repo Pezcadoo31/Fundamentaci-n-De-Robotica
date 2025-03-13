@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+    <group>
+        <push-ros-namespace namespace="gpo1"/>
+        <node pkg="my_py_pkg" exec="my_talker" name="el_que_habla">
+            <remap from="my_chatter" to="canal"/>
+        </node>
+        <node pkg="my_py_pkg" exec="my_listener" >
+            <remap from="my_chatter" to="canal"/>
+        </node>
+    </group>
+
+    <node pkg="my_py_pkg" exec="my_talker" namespace="gpo2" />
+    <node pkg="my_py_pkg" exec="my_listener" namespace="gpo2"/>
+
+    <node pkg="rqt_graph" exec="rqt_graph" />
+</launch>

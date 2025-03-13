@@ -1,0 +1,21 @@
+/ctrl:
+  ros__parameters:
+    Kp: 1.0
+    Ki: 0.0
+    Kd: 0.0
+    sample_time: 0.01
+    integral_limit: 10.0
+
+/motor_sys:
+  ros__parameters:
+    sample_time: 0.01
+    sys_gain_K: 1.0
+    sys_tau_T: 1.0
+    initial_conditions: 0.0
+
+/sp_gen:
+  ros__parameters:
+    signal_type: "sine"
+    amplitude: 1.0
+    frequency: 1.0
+    offset: 0.0

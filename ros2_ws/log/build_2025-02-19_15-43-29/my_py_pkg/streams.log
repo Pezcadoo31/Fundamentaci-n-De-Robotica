@@ -1,0 +1,36 @@
+[3.814s] Invoking command in '/home/abdy/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/abdy/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/abdy/ros2_ws/build/my_py_pkg/build install --record /home/abdy/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[4.661s] running egg_info
+[4.663s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[4.663s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[4.664s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[4.664s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[4.664s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[4.671s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[4.672s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[4.673s] running build
+[4.674s] running build_py
+[4.675s] copying my_py_pkg/ComputeRectangleArea_client.py -> /home/abdy/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[4.677s] copying my_py_pkg/ComputeRectangleArea_server.py -> /home/abdy/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[4.677s] running install
+[4.678s] running install_lib
+[4.681s] copying /home/abdy/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/ComputeRectangleArea_client.py -> /home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[4.682s] copying /home/abdy/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/ComputeRectangleArea_server.py -> /home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[4.682s] byte-compiling /home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/ComputeRectangleArea_client.py to ComputeRectangleArea_client.cpython-310.pyc
+[4.690s] byte-compiling /home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/ComputeRectangleArea_server.py to ComputeRectangleArea_server.cpython-310.pyc
+[4.692s] running install_data
+[4.698s] running install_egg_info
+[4.699s] removing '/home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[4.699s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[4.704s] running install_scripts
+[4.768s] Installing add_2ints_client script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[4.771s] Installing add_2ints_server script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[4.771s] Installing cra_client script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[4.771s] Installing cra_server script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[4.773s] Installing hola_incrementar script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[4.774s] Installing hola_mundo script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[4.774s] Installing hw_status_publisher script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[4.775s] Installing hw_status_subscriber script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[4.775s] Installing my_listener script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[4.779s] Installing my_talker script to /home/abdy/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[4.782s] writing list of installed files to '/home/abdy/ros2_ws/build/my_py_pkg/install.log'
+[4.854s] Invoked command in '/home/abdy/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/abdy/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/abdy/ros2_ws/build/my_py_pkg/build install --record /home/abdy/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

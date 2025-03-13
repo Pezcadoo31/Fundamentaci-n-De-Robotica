@@ -1,0 +1,8 @@
+[console_scripts]
+PROCESS = signal_processing.PROCESS:main
+a = signal_processing.a:main
+process = signal_processing.process:main
+random_generator = signal_processing.random_signal:main
+signal_generator = signal_processing.signal_generator:main
+signal_generator_param = signal_processing.signal_generator_param:main
+

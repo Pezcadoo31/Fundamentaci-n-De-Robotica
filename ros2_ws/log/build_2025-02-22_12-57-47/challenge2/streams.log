@@ -1,0 +1,37 @@
+[1.463s] Invoking command in '/home/abdy/ros2_ws/src/challenge2': PYTHONPATH=/home/abdy/ros2_ws/build/challenge2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdy/ros2_ws/install/challenge2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/challenge2 build --build-base /home/abdy/ros2_ws/build/challenge2/build install --record /home/abdy/ros2_ws/build/challenge2/install.log --single-version-externally-managed install_data
+[1.802s] running egg_info
+[1.803s] creating ../../build/challenge2/challenge2.egg-info
+[1.804s] writing ../../build/challenge2/challenge2.egg-info/PKG-INFO
+[1.804s] writing dependency_links to ../../build/challenge2/challenge2.egg-info/dependency_links.txt
+[1.804s] writing entry points to ../../build/challenge2/challenge2.egg-info/entry_points.txt
+[1.804s] writing requirements to ../../build/challenge2/challenge2.egg-info/requires.txt
+[1.804s] writing top-level names to ../../build/challenge2/challenge2.egg-info/top_level.txt
+[1.805s] writing manifest file '../../build/challenge2/challenge2.egg-info/SOURCES.txt'
+[1.810s] reading manifest file '../../build/challenge2/challenge2.egg-info/SOURCES.txt'
+[1.812s] writing manifest file '../../build/challenge2/challenge2.egg-info/SOURCES.txt'
+[1.812s] running build
+[1.812s] running build_py
+[1.815s] creating /home/abdy/ros2_ws/build/challenge2/build
+[1.815s] creating /home/abdy/ros2_ws/build/challenge2/build/lib
+[1.815s] creating /home/abdy/ros2_ws/build/challenge2/build/lib/challenge2
+[1.815s] copying challenge2/__init__.py -> /home/abdy/ros2_ws/build/challenge2/build/lib/challenge2
+[1.815s] copying challenge2/ctrl.py -> /home/abdy/ros2_ws/build/challenge2/build/lib/challenge2
+[1.816s] running install
+[1.816s] running install_lib
+[1.819s] creating /home/abdy/ros2_ws/install/challenge2/lib/python3.10/site-packages/challenge2
+[1.819s] copying /home/abdy/ros2_ws/build/challenge2/build/lib/challenge2/__init__.py -> /home/abdy/ros2_ws/install/challenge2/lib/python3.10/site-packages/challenge2
+[1.819s] copying /home/abdy/ros2_ws/build/challenge2/build/lib/challenge2/ctrl.py -> /home/abdy/ros2_ws/install/challenge2/lib/python3.10/site-packages/challenge2
+[1.819s] byte-compiling /home/abdy/ros2_ws/install/challenge2/lib/python3.10/site-packages/challenge2/__init__.py to __init__.cpython-310.pyc
+[1.819s] byte-compiling /home/abdy/ros2_ws/install/challenge2/lib/python3.10/site-packages/challenge2/ctrl.py to ctrl.cpython-310.pyc
+[1.821s] running install_data
+[1.822s] creating /home/abdy/ros2_ws/install/challenge2/share/ament_index
+[1.822s] creating /home/abdy/ros2_ws/install/challenge2/share/ament_index/resource_index
+[1.822s] creating /home/abdy/ros2_ws/install/challenge2/share/ament_index/resource_index/packages
+[1.822s] copying resource/challenge2 -> /home/abdy/ros2_ws/install/challenge2/share/ament_index/resource_index/packages
+[1.825s] copying package.xml -> /home/abdy/ros2_ws/install/challenge2/share/challenge2
+[1.825s] running install_egg_info
+[1.825s] Copying ../../build/challenge2/challenge2.egg-info to /home/abdy/ros2_ws/install/challenge2/lib/python3.10/site-packages/challenge2-0.0.0-py3.10.egg-info
+[1.828s] running install_scripts
+[1.851s] Installing ctrl script to /home/abdy/ros2_ws/install/challenge2/lib/challenge2
+[1.851s] writing list of installed files to '/home/abdy/ros2_ws/build/challenge2/install.log'
+[2.136s] Invoked command in '/home/abdy/ros2_ws/src/challenge2' returned '0': PYTHONPATH=/home/abdy/ros2_ws/build/challenge2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdy/ros2_ws/install/challenge2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/challenge2 build --build-base /home/abdy/ros2_ws/build/challenge2/build install --record /home/abdy/ros2_ws/build/challenge2/install.log --single-version-externally-managed install_data

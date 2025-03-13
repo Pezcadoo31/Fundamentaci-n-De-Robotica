@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/step_signal_pkg/step_signal_pkg.egg-info
+writing ../../build/step_signal_pkg/step_signal_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/step_signal_pkg/step_signal_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/step_signal_pkg/step_signal_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/step_signal_pkg/step_signal_pkg.egg-info/requires.txt
+writing top-level names to ../../build/step_signal_pkg/step_signal_pkg.egg-info/top_level.txt
+writing manifest file '../../build/step_signal_pkg/step_signal_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/step_signal_pkg/step_signal_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/step_signal_pkg/step_signal_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/abdy/ros2_ws/build/step_signal_pkg/build
+creating /home/abdy/ros2_ws/build/step_signal_pkg/build/lib
+creating /home/abdy/ros2_ws/build/step_signal_pkg/build/lib/step_signal_pkg
+copying step_signal_pkg/__init__.py -> /home/abdy/ros2_ws/build/step_signal_pkg/build/lib/step_signal_pkg
+copying step_signal_pkg/step_signal_node.py -> /home/abdy/ros2_ws/build/step_signal_pkg/build/lib/step_signal_pkg
+running install
+running install_lib
+creating /home/abdy/ros2_ws/install/step_signal_pkg/lib/python3.10/site-packages/step_signal_pkg
+copying /home/abdy/ros2_ws/build/step_signal_pkg/build/lib/step_signal_pkg/__init__.py -> /home/abdy/ros2_ws/install/step_signal_pkg/lib/python3.10/site-packages/step_signal_pkg
+copying /home/abdy/ros2_ws/build/step_signal_pkg/build/lib/step_signal_pkg/step_signal_node.py -> /home/abdy/ros2_ws/install/step_signal_pkg/lib/python3.10/site-packages/step_signal_pkg
+byte-compiling /home/abdy/ros2_ws/install/step_signal_pkg/lib/python3.10/site-packages/step_signal_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/abdy/ros2_ws/install/step_signal_pkg/lib/python3.10/site-packages/step_signal_pkg/step_signal_node.py to step_signal_node.cpython-310.pyc
+running install_data
+creating /home/abdy/ros2_ws/install/step_signal_pkg/share/ament_index
+creating /home/abdy/ros2_ws/install/step_signal_pkg/share/ament_index/resource_index
+creating /home/abdy/ros2_ws/install/step_signal_pkg/share/ament_index/resource_index/packages
+copying resource/step_signal_pkg -> /home/abdy/ros2_ws/install/step_signal_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/abdy/ros2_ws/install/step_signal_pkg/share/step_signal_pkg
+running install_egg_info
+Copying ../../build/step_signal_pkg/step_signal_pkg.egg-info to /home/abdy/ros2_ws/install/step_signal_pkg/lib/python3.10/site-packages/step_signal_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing step_signal_node script to /home/abdy/ros2_ws/install/step_signal_pkg/lib/step_signal_pkg
+writing list of installed files to '/home/abdy/ros2_ws/build/step_signal_pkg/install.log'
