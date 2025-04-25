@@ -69,7 +69,7 @@ Para ejecutar los proyectos se requiere:
 
 - **Desarrollado por:** Abdiel Vicencio 🤖  
 - **Contribución externa:** [Manchester Robotics Ltd.](https://github.com/ManchesterRoboticsLtd)  
-- **Institución:** Ingeniería Robótica – Tecnologico De Monterrey CCM
+- **Institución:** Ingeniería Robótica – Tecnologico De Monterrey CEM
 
 
 
